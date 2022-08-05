@@ -8,7 +8,7 @@ export const Container = styled.div`
 `;
 
 export const Main = styled.div`
-  display:flex;
+  display: flex;
   flex-direction: column;
 
   margin: 0 auto;
@@ -19,13 +19,26 @@ export const Main = styled.div`
 `;
 
 export const ProfileInfo = styled.div`
+  padding: 0 var(--horizontalPadding);
   @media (min-width: 768px) {
     width: 25%;
   }
 `;
 
 export const RepositoryInfo = styled.div`
+  padding: 0 var(--horizontalPadding);
   @media (min-width: 768px) {
     width: 75%;
+  }
+`;
+
+export const Repos = styled.div`
+  margin-top: var(--verticalPadding);
+
+  > div {
+    margin-top: 8px;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: 1fr;
   }
 `;
