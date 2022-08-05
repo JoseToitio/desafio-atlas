@@ -2,7 +2,6 @@ import React from "react";
 
 import { Container, TopSide, BotSide, StarIcon, ForkIcon } from "./styles";
 export default function RepositoriesCard({
-  username,
   reponame,
   description,
   language,
