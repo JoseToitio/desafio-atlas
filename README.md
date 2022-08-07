@@ -31,3 +31,4 @@ npm start
  - React
 ##  Deploy do Projeto
 
+https://62f027b8473979571e345d43--jazzy-pavlova-dc3dff.netlify.app/
