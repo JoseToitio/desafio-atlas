@@ -25,7 +25,7 @@ export const TopSide = styled.div`
       color: var(--link);
       text-decoration: none;
       &:focus,
-      &hover {
+      &:hover {
         text-decoration: underline;
       }
     }
