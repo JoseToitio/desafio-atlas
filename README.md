@@ -24,6 +24,8 @@ npm start
     - [x] DADO QUE o usuário na home-page e digitar o usuário "UsuarioqueProvavelmenteNãoExisteLá" QUANDO clicar no botão Pesquisar ENTÃO o sistema faz a consulta e retorna a mensagem: "Usuário não encontrado no github. Verifique se você digitou o nome corretamente"
      - [x] DADO QUE o usuário na home-page QUANDO clicar no botão Pesquisar sem preencher o campo, ENTÃO o sistema retorna a mensagem: "informe um nome de usuário válido do github".
 
+ - Repositório
+   - [x] Haverá uma barra de pesquisa na parte superior onde é possivel pesquisar outro repositório no github.
 
 ## Tecnologias Usadas
 
